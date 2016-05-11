@@ -1,0 +1,37 @@
+html,body{
+	height: 100%;
+	padding: 0px;
+	margin:0px;
+}
+
+div,textarea{
+	box-sizing: border-box;
+}
+
+.container{
+	height: 100%;
+	width: 400px;
+	border-right: 1px solid black;
+}
+
+.chat, .form{
+	padding: 0 10px;
+}
+
+.chat{
+	height: calc(100%-150px);
+}
+
+.form{
+	height: 150px;
+	border-top: 1px solid black;
+}
+
+#messagebox{
+	resize: none;
+	width: 100%;
+	display: block;
+	height: 100%;
+	padding: 10px 0;
+	border: none;
+}
